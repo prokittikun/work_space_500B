@@ -70,7 +70,7 @@ if (isset($_GET['id'])) {
                         ?>
                     </div>
                     <div class="col-sm-4 text-center">
-                        <a style="cursor: url('https://cur.cursors-4u.net/mechanics/mec-1/mec5.cur'), auto" class="btn btn-warning btn-sm" href="index.php">หน้าแรก</a>
+                        <a style="cursor: url('https://cur.cursors-4u.net/mechanics/mec-1/mec5.cur'), auto" class="btn btn-warning btn-sm" href="home.php">หน้าแรก</a>
                     </div>
                     <div class="text-right col-sm-4">
                         <?php
