@@ -10,7 +10,8 @@ include('include/head.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.scss">
-
+    <script src='include/core.js'></script>
+    <link rel="stylesheet" href="include/button.css">
 </head>
 
 <body style="color: white">
@@ -155,6 +156,29 @@ include('include/head.php');
                 </p>
 
             </a>
+            <div class="col-3">
+                <div class="text-center" style="vertical-align: middle;margin-top:20%">
+                    <!-- <a href="https://forms.gle/gQUFapbAKKtUsnpd9" target="_blank" class="custom"><h3>ทำแบบประเมิน</h3></a> -->
+                    <!-- <div id="workarea"> -->
+                    <!-- <div class="position"> -->
+                    <img style="opacity: 0.6" width="50%" src="https://i.pinimg.com/originals/25/29/c6/2529c62e987d4b7c11553ea92c3cc66e.png" alt="">
+                    <!--start button, nothing above this is necessary -->
+                    <p>
+                    <div class="svg-wrapper">
+                        <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                            <rect id="shape" height="40" width="150" />
+                            <div id="text">
+                                <a href="https://forms.gle/gQUFapbAKKtUsnpd9" target="_blank"><span class="spot"></span>
+                                    <h4>ทำแบบประเมิน</h4>
+                                </a>
+                            </div>
+                        </svg>
+                    </div>
+                    </p>
+                    <!-- </div> -->
+                    <!-- </div> -->
+                </div>
+            </div>
         </div>
     </div>
 </body>
